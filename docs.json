@@ -1,19 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
-  "name": "Trezu Docs",
+  "name": "NEAR Business Docs",
   "colors": {
-    "primary": "#0953FF",
-    "light": "#7EA3FB",
-    "dark": "#257be9"
+    "primary": "#00C27C",
+    "light": "#00EC97",
+    "dark": "#00A868"
   },
   "favicon": "assets/favicon.svg",
-  "redirects": [
-    {
-      "source": "/ledger",
-      "destination": "/guides/ledger"
-    }
-  ],
   "navbar": {
     "primary": {
       "type": "button",
@@ -37,8 +31,7 @@
         "group": "Getting Started",
         "pages": [
           "home",
-          "what-is",
-          "confidential-treasuries"
+          "what-is"
         ]
       },
       {
@@ -56,19 +49,6 @@
           "payments/bulk-payment",
           "payments/handling-requests",
           "swap"
-        ]
-      },
-      {
-        "group": "User Guides",
-        "pages": [
-          "guides/ledger",
-          {
-            "group": "Confidential Treasuries",
-            "pages": [
-              "guides/funding-confidential-treasuries",
-              "guides/confidential-payments"
-            ]
-          }
         ]
       }
     ]
